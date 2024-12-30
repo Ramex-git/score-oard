@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    height: 250px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f173d;
+    border-radius: 10px;
+}
+.score-wraper{
+    margin-top: 40px;
+}
+.score-heading{
+    font-size: 35px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.score-text-wraper {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.score-text {
+    color: red;
+    text-align: center;
+    font-size: 90px;
+}
+
+.score-btn-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.score-btn {
+    padding: 7px;
+    background-color: #0f173d;
+    border: 1px solid gray;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 4px;
+    color: grey;
+}
